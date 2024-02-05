@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+header{
+    background-image: url(img/240_F_548563894_s5tGFJjPhc7lp5uG4iJkR77QbgvrKr9e.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul {
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+    color: fuchsia;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px; 
+    transition:0.5s;  
+}
+
+ul li:hover {
+    background-color: white;
+    color: black;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color:white; 
+}
+h1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50% -50%);
+  
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 33%;
+    transform: translate(-50% -50%);
+}
+
+.btn{
+    border: 2px solid orange;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+  
+}
+
+.btn:hover{
+    background-color: green;
+    color: black;
+
+}
